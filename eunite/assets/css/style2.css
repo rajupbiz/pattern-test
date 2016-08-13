@@ -46,7 +46,7 @@ body {
 	
 }
 .g-footer-div{
-	background-color: #1A87D7;
+	background-color: #1A87D7;  /*  #1E8184 */
 	color: #FFFFFF;
 	font-family: Calibri;
 	font-size: 12pt;
@@ -67,11 +67,11 @@ body {
 	margin-bottom: 0px
 }
 
-.navbar-brand{
+/* .navbar-brand{
 	width: 190px;
 	height: 60px;
 	background: url(../img/gomaee_logo.png) left center no-repeat;
-}
+} */
 .g-footer-logo{
 	font-family: Papyrus;
 	font-weight: bold;
@@ -164,13 +164,13 @@ body {
 	cursor: pointer; */
 }
 .g-header-date-text{
-	float: left; 
+	float: left;
 	padding-top: 5px; 
 	margin-left: 40px;
 }
 .g-header-img{
-	width: 150px;
-	height: 50px;
+	/* width: 150px;
+	height: 50px; */
 	content: url(../img/gomaie_logo.png);
 }
 .g-header-above-menu{
@@ -181,7 +181,7 @@ body {
 	padding-top: 5px;
 }
 .g-register-form-div{
-	padding-left: 50px;
+	padding-left: 60px;
 }
 .g-sub-menu-a{
 	font-family: 'Rubik', sans-serif;
@@ -200,6 +200,10 @@ body {
 .g-menu-collapse{
 	margin-right: 0px; 
 	padding-right: 0px;
+}
+.g-menu{
+	/* background-color: #A36641;
+	color: white; */
 }
 .g-welocome-msg{
 	margin-top: 20px;
@@ -246,6 +250,23 @@ body {
 
 }
 
-.g-vertical-line{
-	border-left: thin solid;
+
+.g-vertical-line-left{
+	border-left: threedlightshadow thin solid;
+}
+
+.g-vertical-line-right{
+	border-right: threedlightshadow thin solid;
+	/* position: relative; */
+	/* z-index : 1; */
+	/* border-right-color:  gray; */
+}
+
+.g-heading-3{
+	font-size: 11pt;
+	font-weight: bold;	
+}
+
+.g-heading-2{
+	font-size: 9pt;
 }
